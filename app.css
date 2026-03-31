@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.inter-medium {
+  font-family: "Inter", sans-serif;
+  font-weight: medium;
+}
+
+.cyan-custom {
+  color: #7ff2ff;
+}
+
+.offwhite-custom {
+  color: #c7c7c7;
+}
+
+.whiter-custom {
+  color: #ffffff;
+}
+
+.black-custom {
+  color: #0a0a0a;
+}
+
+.manrope-reg {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+}
+
+.manrope-bold {
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+}
+
+.manrope-semibold {
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+}
+
+
+.manrope-med {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+}
+
+.text-stroke-fill {
+  color: white; /* thicker fill */
+  text-shadow:
+    1px 0 #7ff2ff,
+   -1px 0 #7ff2ff,
+    0 1px #7ff2ff,
+    0 -1px #7ff2ff;
+}

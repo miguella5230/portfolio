@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en"><!-- <html lang="en"  class="scroll-smooth md:scroll-auto"> -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miguella Alarcon</title>
+    <link href="https://cdn.jsdelivr.net/combine/npm/daisyui@5/base/reset.css,npm/daisyui@5/base/rootscrolllock.css,npm/daisyui@5/base/properties.css,npm/daisyui@5/base/svg.css,npm/daisyui@5/base/rootcolor.css,npm/daisyui@5/base/scrollbar.css,npm/daisyui@5/base/rootscrollgutter.css,npm/daisyui@5/components/stat.css,npm/daisyui@5/components/dock.css,npm/daisyui@5/components/label.css,npm/daisyui@5/components/button.css,npm/daisyui@5/components/calendar.css,npm/daisyui@5/components/status.css,npm/daisyui@5/components/textrotate.css,npm/daisyui@5/components/steps.css,npm/daisyui@5/components/toast.css,npm/daisyui@5/components/mask.css,npm/daisyui@5/components/radialprogress.css,npm/daisyui@5/components/fab.css,npm/daisyui@5/components/radio.css,npm/daisyui@5/components/validator.css,npm/daisyui@5/components/collapse.css,npm/daisyui@5/components/timeline.css,npm/daisyui@5/components/rating.css,npm/daisyui@5/components/range.css,npm/daisyui@5/components/checkbox.css,npm/daisyui@5/components/hovergallery.css,npm/daisyui@5/components/divider.css,npm/daisyui@5/components/fieldset.css,npm/daisyui@5/components/toggle.css,npm/daisyui@5/components/navbar.css,npm/daisyui@5/components/carousel.css,npm/daisyui@5/components/countdown.css,npm/daisyui@5/components/kbd.css,npm/daisyui@5/components/hero.css,npm/daisyui@5/components/tooltip.css,npm/daisyui@5/components/dropdown.css,npm/daisyui@5/components/textarea.css,npm/daisyui@5/components/tab.css,npm/daisyui@5/components/menu.css,npm/daisyui@5/components/list.css,npm/daisyui@5/components/footer.css,npm/daisyui@5/components/hover3d.css,npm/daisyui@5/components/table.css,npm/daisyui@5/components/modal.css,npm/daisyui@5/components/loading.css,npm/daisyui@5/components/select.css,npm/daisyui@5/components/card.css,npm/daisyui@5/components/stack.css,npm/daisyui@5/components/input.css,npm/daisyui@5/components/indicator.css,npm/daisyui@5/components/skeleton.css,npm/daisyui@5/components/diff.css,npm/daisyui@5/components/mockup.css,npm/daisyui@5/components/swap.css,npm/daisyui@5/components/alert.css,npm/daisyui@5/components/drawer.css,npm/daisyui@5/components/filter.css,npm/daisyui@5/components/progress.css,npm/daisyui@5/components/fileinput.css,npm/daisyui@5/components/avatar.css,npm/daisyui@5/components/breadcrumbs.css,npm/daisyui@5/components/badge.css,npm/daisyui@5/components/chat.css,npm/daisyui@5/components/link.css,npm/daisyui@5/utilities/radius.css,npm/daisyui@5/utilities/glass.css,npm/daisyui@5/utilities/join.css,npm/daisyui@5/utilities/typography.css,npm/daisyui@5/colors/responsive.css,npm/daisyui@5/colors/properties.css,npm/daisyui@5/colors/properties-extended.css,npm/daisyui@5/colors/states-extended.css,npm/daisyui@5/colors/states.css,npm/daisyui@5/colors/responsive-extended.css,npm/daisyui@5/theme/lofi.css,npm/daisyui@5/theme/light.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+
+    <link href="app.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+
+
+<body class="overflow-auto"> <!-- use overflow-scroll if needed (to always display scrollbar) overflow-x-hidden-->
+
+  <div class="w-full h-full flex flex-col bg-[#0a0a0a] relative"> <!-- main div container -->
+    <!-- nav div -->
+    <!-- <div class="w-full"> -->
+   
+    <!-- Main Nav -->
+    <nav class="bg-[#0a0a0a] fixed w-full z-20 top-0 start-0">
+    <div class="flex flex-wrap items-center justify-between mx-3 my-1 -p-2 md:mx-5 md:my-2 md:p-2">
+        <a href="index.html" class="flex items-center space-x-3">
+        <span class="self-center text-16 md:text-[32px] whitespace-nowrap bebas-neue-regular cyan-custom">MIGUELLA ALARCON</span>
+        </a>
+        <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-body rounded-xl md:hidden hover:bg-neutral-secondary-soft hover:text-heading focus:outline-none focus:ring-1 focus:ring-neutral-tertiary" aria-controls="navbar-default" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg class="w-6 h-6 cyan-custom" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#7ff2ff" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/></svg>
+        </button>
+
+        <div class="hidden w-full md:block md:w-auto -mt-3" id="navbar-sticky">
+            <ul class="text-xs flex items-center justify-center flex-col p-2 md:p-0 mt-4 border border-xs rounded-2xl bg-neutral-secondary-soft md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-neutral-primary md:text-base">
+                <li>
+                <a type="button" onClick="document.getElementById('aboutme').scrollIntoView();" class="block py-1 px-2 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent inter-medium cyan-custom cursor-pointer">About</a>
+                </li>
+                <li>
+                <a type="button" onClick="document.getElementById('contact').scrollIntoView();" class="block py-1 px-2 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent inter-medium cyan-custom cursor-pointer">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+
+    <div class="flex flex-1 flex-col md:flex-row min-h-screen z-10 pt-20 md:pt-24 md:justify-center">
+        <div class="w-full md:w-1/2 h-auto md:min-h-screen flex flex-col justify-center items-start px-4 md:pl-16">
+            <h1 class="bebas-neue-regular cyan-custom text-xl md:text-5xl lg:text-8xl leading-none uppercase">
+                Hi, I am<br>Miguella Alarcon.
+            </h1>
+            <br>
+            <p class="manrope-reg offwhite-custom text-xs md:text-xl leading-relaxed">
+                A Manila-based aspiring app and game developer passionate about creating engaging applications and interactive games using Unity and Android technologies.
+            </p>
+            
+            <div class="flex flex-wrap items-center gap-4 mt-10">
+
+           <!-- CONTACT BUTTON -->
+            <a href="mailto:your-email@example.com"
+            class="flex items-center whitespace-nowrap bg-[#7ff2ff] text-[5px] sm:text-xs md:text-base text-black-custom px-3 sm:px-4 md:px-5 py-2 sm:py-3 rounded-full manrope-bold tracking-wide hover:bg-[#c1f0f5] transition">
+                CONTACT ME
+                <span class="flex items-center justify-center w-4 md:w-7 h-4 md:h-7 bg-[#0a0a0a] rounded-full ml-1 -mr-2">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        class="w-3 sm:w-3.5 md:w-4 h-3 sm:h-3.5 md:h-4 text-[#7ff2ff]"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M7 17L17 7M17 7H8M17 7V16"/>
+                    </svg>
+                </span>
+            </a>
+
+            <!-- LINKEDIN -->
+            <a href="#"
+            class="flex items-center justify-center w-8 sm:w-10 md:w-12 h-8 sm:h-10 md:h-12 bg-neutral-900 rounded-full hover:bg-neutral-800 transition">
+                    <img src="./images/bxl-linkedin.svg.svg" alt="LinkedIn" class="w-4 sm:w-5 md:w-6 h-4 sm:h-5 md:h-6 object-contain">
+            </a>
+            </div>
+        </div> 
+
+        <div class="w-full md:w-1/2 h-auto md:min-h-screen flex justify-center items-center p-6"> 
+            <img src="./images/main_icon.svg" alt="Landing Icon" class="max-w-full h-auto">
+        </div> 
+
+        
+    </div>
+
+    <div class="w-full"><hr class="text-[#484848] border-t my-8 md:my-20"></div>
+
+    <!-- Featured Projects -->
+    <div class="flex flex-col min-h-screen z-10">
+        <div class="w-full md:w-1/2 px-4 md:pl-16">
+            <h1 class="bebas-neue-regular cyan-custom text-xl md:text-5xl lg:text-8xl leading-none uppercase">
+                Featured Projects
+            </h1>
+            <br>
+            <p class="manrope-reg offwhite-custom text-xs md:text-xl leading-relaxed -mt-1">
+                Here are some of the selected projects that showcase my passion for app and Unity development.
+            </p>
+        </div>
+        <!-- Capstone Project -->
+        <div class="w-full flex md:flex-row px-4 md:pl-16 mt-8 md:mt-15 space-x-10 flex-col">
+            <div class="w-full md:w-1/2">
+                <div class="card rounded-3xl overflow-hidden min-h-full shadow-md md:max-w-2xl max-w-full bg-[#1a1a1a]">
+                    <div class="card-body relative">
+                        <span class="badge badge-xs md:badge-sm badge-neutral absolute start-4 top-2 md:start-2 md:top-2 text-nowrap text-[6px] md:text-xs md:p-4 rounded-3xl justify-center md:justify-start">Capstone Project</span>
+                        <div class="flex align-center justify-center pt-5 md:pt-10 hover-3d ">
+                            <figure class="hover-gallery max-w-full h-150 relative rounded-2xl">
+                            <img class="absolute inset-0 w-full h-full object-cover object-top" src="./images/agham1.jpg" />
+                            <img class="absolute inset-0 w-full h-full object-cover object-center" src="./images/agham2.jpg" />
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+            
+            <div class="w-full md:w-1/2 my-10 md:my-0">
+                <h1 class="manrope-med text-lg md:text-2xl lg:text-4xl text-stroke-fill md:mt-10 sm:pr-5">
+                    Agham: Mobile E-Learning AR App
+                </h1>
+                <br>
+                <p class="manrope-reg offwhite-custom text-2xs md:text-lg leading-5 md:leading-relaxed pr-1 sm:pr-10 text-justify">
+                    A science educational supplementary application designed for Grade 6 students. The app integrates augmented reality (AR) technology through the use of image markers, allowing users to explore 3D models and interactive lessons that enhance learning engagement. This project demonstrates my skills in AR development, interactive design, and educational technology integration, combining innovation with meaningful learning experiences.
+                </p>
+                <p class="manrope-semibold whiter-custom text-3xs md:text-base pt-10">PROJECT INFO</p>
+                <div class="w-full sm:pr-10"><hr class="text-[#484848] border-t my-2 md:my-4"></div>
+                <p class="flex justify-between manrope-med offwhite-custom text-[12px] md:text-sm pr-1 sm:pr-10">
+                <span>Year</span>
+                <span>2025</span>
+                </p>
+                <div class="w-full sm:pr-10"><hr class="text-[#484848] border-t my-2 md:my-4"></div>
+                <p class="flex justify-between manrope-med offwhite-custom text-[12px] md:text-sm pr-1 sm:pr-10 flex-wrap">
+                <span>Role</span>
+                <span>Lead Unity Programmer and AR Developer (Team)</span>
+                </p>
+                <div class="w-full sm:pr-10"><hr class="text-[#484848] border-t my-2 md:my-4"></div>
+                <p class="flex justify-between manrope-med offwhite-custom text-[12px] md:text-sm pr-1 sm:pr-10 flex-wrap">
+                <span>Technologies</span>
+                <span class="text-end justify-end flex flex-wrap w-1/2">C#, Unity, AR Foundation, Firebase, Next.js</span>
+                </p>
+                <div class="w-full sm:pr-10"><hr class="text-[#484848] border-t my-2 md:my-4"></div>
+            </div>
+        </div>
+
+        <!-- Mini Capstone -->
+        <div class="w-full flex md:flex-row px-4 md:pl-16 mt-8 md:mt-15 space-x-10 flex-col">
+            <div class="w-full md:w-1/2">
+                <div class="card rounded-3xl overflow-hidden min-h-full shadow-md md:max-w-2xl max-w-full bg-[#1a1a1a]">
+                    <div class="card-body relative">
+                        <span class="badge badge-xs md:badge-sm badge-neutral absolute start-4 top-2 md:start-2 md:top-2 text-nowrap text-[6px] md:text-xs md:p-4 rounded-3xl justify-center md:justify-start">Capstone Project</span>
+                        <div class="flex align-center justify-center pt-5 md:pt-10 hover-3d ">
+                            <figure class="hover-gallery max-w-full h-100 relative rounded-2xl">
+                            <img class="absolute inset-0 object-contain object-fill" src="./images/sweetbytes1.jpg" />
+                            <img class="absolute inset-0 object-contain object-fill" src="./images/sweetbytes2.jpg" />
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+            
+            <div class="w-full md:w-1/2 my-10 md:my-0">
+                <h1 class="manrope-med text-lg md:text-2xl lg:text-4xl text-stroke-fill md:mt-10 sm:pr-5">
+                    SweetBytes: Point-of-Sale WPF App
+                </h1>
+                <br>
+                <p class="manrope-reg offwhite-custom text-2xs md:text-lg leading-5 md:leading-relaxed pr-1 sm:pr-10 text-justify">
+                    A Point of-Sale (POS) system for a Dessert business that showcases my expertise in database management, system logic, and user experience design. It features an image recognition function that utilizes optical character reading (OCR) to capture and read numbers from online receipts through  the  camera.  The  project demonstrates my ability in back-end development to create an efficient, data driven business solution.
+                </p>
+                <p class="manrope-semibold whiter-custom text-3xs md:text-base pt-10">PROJECT INFO</p>
+                <div class="w-full sm:pr-10"><hr class="text-[#484848] border-t my-2 md:my-4"></div>
+                <p class="flex justify-between manrope-med offwhite-custom text-[12px] md:text-sm pr-1 sm:pr-10">
+                <span>Year</span>
+                <span>2024</span>
+                </p>
+                <div class="w-full sm:pr-10"><hr class="text-[#484848] border-t my-2 md:my-4"></div>
+                <p class="flex justify-between manrope-med offwhite-custom text-[12px] md:text-sm pr-1 sm:pr-10 flex-wrap">
+                <span>Role</span>
+                <span>Lead Back-End Developer (Team)</span>
+                </p>
+                <div class="w-full sm:pr-10"><hr class="text-[#484848] border-t my-2 md:my-4"></div>
+                <p class="flex justify-between manrope-med offwhite-custom text-[12px] md:text-sm pr-1 sm:pr-10 flex-wrap">
+                <span>Technologies</span>
+                <span class="text-end justify-end flex flex-wrap w-1/2">C#, .NET WPF, IronOCR, MySQL</span>
+                </p>
+                <div class="w-full sm:pr-10"><hr class="text-[#484848] border-t my-2 md:my-4"></div>
+            </div>
+        </div>
+
+        <!-- Conceptual App -->
+        <div class="w-full flex md:flex-row px-4 md:pl-16 mt-8 md:mt-15 space-x-10 flex-col">
+            <div class="w-full md:w-1/2">
+                <div class="card rounded-3xl overflow-hidden min-h-full shadow-md md:max-w-2xl max-w-full bg-[#1a1a1a]">
+                    <div class="card-body relative">
+                        <span class="badge badge-xs md:badge-sm badge-neutral absolute start-4 top-2 md:start-2 md:top-2 text-nowrap text-[6px] md:text-xs md:p-4 rounded-3xl justify-center md:justify-start">Capstone Project</span>
+                        <div class="flex align-center justify-center pt-5 md:pt-10 hover-3d ">
+                            <figure class="hover-gallery max-w-full h-150 relative rounded-2xl">
+                            <img class="absolute inset-0 w-full h-full object-cover object-fill" src="./images/kirin1.jpg" />
+                            <img class="absolute inset-0 w-full h-full object-cover object-fill" src="./images/kirin2.jpg" />
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+            
+            <div class="w-full md:w-1/2 my-10 md:my-0">
+                <h1 class="manrope-med text-lg md:text-2xl lg:text-4xl text-stroke-fill md:mt-10 sm:pr-5">
+                    KirinSim: Conceptual E-Money App
+                </h1>
+                <br>
+                <p class="manrope-reg offwhite-custom text-2xs md:text-lg leading-5 md:leading-relaxed pr-1 sm:pr-10 text-justify">
+                    Successfully crafted an engaging product page featuring a dynamic lightbox gallery and seamless cart functionality, showcasing proficiency in JavaScript development.
+                </p>
+                <p class="manrope-semibold whiter-custom text-3xs md:text-base pt-10">PROJECT INFO</p>
+                <div class="w-full sm:pr-10"><hr class="text-[#484848] border-t my-2 md:my-4"></div>
+                <p class="flex justify-between manrope-med offwhite-custom text-[12px] md:text-sm pr-1 sm:pr-10">
+                <span>Year</span>
+                <span>2024</span>
+                </p>
+                <div class="w-full sm:pr-10"><hr class="text-[#484848] border-t my-2 md:my-4"></div>
+                <p class="flex justify-between manrope-med offwhite-custom text-[12px] md:text-sm pr-1 sm:pr-10 flex-wrap">
+                <span>Role</span>
+                <span>Front-end Developer (Individual)</span>
+                </p>
+                <div class="w-full sm:pr-10"><hr class="text-[#484848] border-t my-2 md:my-4"></div>
+                <p class="flex justify-between manrope-med offwhite-custom text-[12px] md:text-sm pr-1 sm:pr-10 flex-wrap">
+                <span>Technologies</span>
+                <span class="text-end justify-end flex flex-wrap w-1/2">Java, Android Studio</span>
+                </p>
+                <div class="w-full sm:pr-10"><hr class="text-[#484848] border-t my-2 md:my-4"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="aboutme" class="w-full"><hr class="text-[#484848] border-t my-8 md:my-20"></div>
+
+    <!-- About Me -->
+    <div class="flex flex-col min-h-screen z-10 mt-15">
+        <div class="w-full md:w-1/2 px-4 md:pl-16">
+        </div>
+        <!-- About me section -->
+        <div class="w-full flex md:flex-row px-4 md:pl-16 space-x-10 flex-col">
+            <div class="w-full md:w-1/2">
+            <h1 class="bebas-neue-regular cyan-custom text-2xl md:text-6xl lg:text-9xl leading-none uppercase">
+                About Me
+            </h1>
+            </div>
+            
+            <div class="w-full md:w-1/2 my-8 md:my-0">
+                <h1 class="manrope-med text-lg md:text-3xl lg:text-4xl text-stroke-fill pr-1 sm:pr-7">
+                    I am an app and game developer based in Manila.
+                </h1>
+                <br>
+                <p class="manrope-reg offwhite-custom text-2xs md:text-lg leading-5 md:leading-relaxed pr-1 sm:pr-10 text-justify">
+                    I am a BSIT graduate in STI College Caloocan with hands on experience in C# and Java, specializing in Unity development. I’ve worked on creating Point-of-Sale (POS) systems, educational applications, and augmented reality (AR) apps that combine interactive design with practical functionality. My background blends software development and creative problem-solving to build efficient, user-centered digital solutions.
+                </p>
+                <br>
+                <a href="aboutme.html" class="manrope-bold cyan-custom text-4xs md:text-base underline underline-offset-6">MORE ABOUT ME</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="w-full"><hr class="text-[#484848] border-t my-8 md:mt-10 md:mb-20"></div>
+
+    <!-- Let's Connect -->
+    <div class="flex flex-col min-h-screen z-10 mt-15">
+        <!-- lets connect section -->
+        <div class="w-full flex md:flex-row px-4 md:pl-16 space-x-10 flex-col">
+            <div class="w-full md:w-1/2 md:h-screen flex flex-col"> <!-- revert to h-screen if you want big space under this section before contact form in sm screens-->
+            <h1 class="bebas-neue-regular cyan-custom text-2xl md:text-6xl lg:text-9xl leading-none uppercase">
+                Let's Connect
+            </h1>
+            <p class="manrope-reg offwhite-custom text-xs md:text-xl leading-relaxed mt-4">
+                Say hello at <a href="mailto:meg.alarcon23@gmail.com" class="whiter-custom underline decoration-[#7ff2ff] underline-offset-6">meg.alarcon23@gmail.com</a>
+            </p>
+            <p class="manrope-reg offwhite-custom text-xs md:text-xl leading-relaxed mt-3">
+                For more info, here's my <a href="./files/Alarcon _Miguella_Resume.pdf" download class="whiter-custom underline decoration-[#7ff2ff] underline-offset-6">resume</a>
+            </p>
+            <a href="#"
+            class="flex items-center justify-center w-8 sm:w-10 md:w-12 h-8 sm:h-10 md:h-12 bg-neutral-900 rounded-full hover:bg-neutral-800 transition mt-3 md:mt-6">
+                    <img src="./images/bxl-linkedin.svg.svg" alt="LinkedIn" class="w-4 sm:w-5 md:w-6 h-4 sm:h-5 md:h-6 object-contain">
+            </a>
+          
+            <p class="manrope-reg offwhite-custom text-xs md:text-xl leading-relaxed md:mt-auto pb-10 hidden sm:block"> <!-- revert to mt-auto if you dont wnat md screens for it only -->
+                © 2025 Miguella Alarcon
+            </p>
+            </div>
+            
+            <!-- contact form section -->
+            <div class="w-full md:w-1/2 my-8 md:my-0">
+                <div class="w-full max-w-xl space-y-7 m-auto md:mr-10">
+
+                <!-- Name -->
+                <div>
+                    <label class="manrope-med block mb-2 text-xs md:text-sm offwhite-custom">
+                    Name
+                    </label>
+                    <input 
+                    type="text" 
+                    placeholder="Jane Doe"
+                    class="manrope-reg w-full text-xs md:text-base bg-[#1a1a1a] border-0 py-2 whiter-custom rounded-sm"
+                    required
+                    />
+                </div>
+
+                <!-- Email -->
+                <div>
+                    <label class="manrope-med block mb-2 text-xs md:text-sm offwhite-custom">
+                    Email
+                    </label>
+                    <input 
+                    type="email" 
+                    placeholder="you@example.com"
+                    class="manrope-reg w-full text-xs md:text-base bg-[#1a1a1a] border-0 py-2 whiter-custom rounded-sm"
+                    required
+                    />
+                </div>
+
+                <!-- Subject -->
+                <div>
+                    <label class="manrope-med block mb-2 text-xs md:text-sm offwhite-custom">
+                    Subject
+                    </label>
+                    <input 
+                    type="text" 
+                    placeholder="Subject"
+                    class="manrope-reg w-full text-xs md:text-base bg-[#1a1a1a] border-0 py-2 whiter-custom rounded-sm"
+                    />
+                </div>
+
+                <!-- Message -->
+                <div>
+                    <label class="manrope-med block mb-2 text-xs md:text-sm offwhite-custom">
+                    Message
+                    </label>
+                    <textarea 
+                    placeholder="Write your message."
+                    class="manrope-reg w-full text-xs md:text-base bg-[#1a1a1a] border-0 py-2 whiter-custom h-32 resize-none rounded-sm"
+                    required
+                    ></textarea>
+                </div>
+
+                <!-- Submit -->
+                <button 
+                    class="mt-4 px-10 py-4 bg-[#7ff2ff] black-custom rounded-[64px] hover:bg-[#c1f0f5] transition manrope-bold mb-2 text-xs md:text-base"
+                >
+                    SUBMIT
+                </button>
+
+                </div>
+
+                <p class="manrope-reg offwhite-custom text-xs md:text-xl leading-relaxed mt-20 pb-10 block sm:hidden">
+                © 2025 Miguella Alarcon
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- for the © para, you an just add it to the last div and position -->
+
+    <!-- for the form send -->
+     <!-- <form action="https://formspree.io/f/your-id" method="POST">
+  <input type="text" name="name" required />
+  <input type="email" name="email" required />
+  <textarea name="message" required></textarea>
+  <button type="submit">Send Message</button>
+</form> -->
+
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
